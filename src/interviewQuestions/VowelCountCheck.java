@@ -6,7 +6,6 @@ public class VowelCountCheck {
         System.out.println(vowelCountcheck(str));
     }
     public static int vowelCountcheck(String str){
-        StringBuilder str2=new StringBuilder();
         int len=str.length();
         int count=0;
         for(int i=0;i<len;i++){
